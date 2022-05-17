@@ -41,7 +41,7 @@ class FeedbackandReview //Feedback and Review Class
         char feed;
         char U_name;        
         
-    private: //Method
+    public: //Method
         FeedbackandReview();
 
         FeedbackandReview(int pU_ID, int pF_no, char pU_mail, char pfeed, char pU_name);
