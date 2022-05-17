@@ -63,9 +63,9 @@ BusStaff::BusStaff()
 {
 	S_ID = 0;
 	Stf_telno =0;
-	strcpy = (Stf_name, " ");
-	strcpy = (Stf_type, " ");
-	string = (Stf_add, " ");
+	strcpy (Stf_name, " ");
+	strcpy (Stf_type, " ");
+	string str = (Stf_add, " ");
 }
 
 BusStaff::BusStaff(int pS_ID, int pStf_telno, char pStf_name, 
@@ -73,9 +73,9 @@ BusStaff::BusStaff(int pS_ID, int pStf_telno, char pStf_name,
 {
 	S_ID = pU_ID;
 	Stf_telno = pStf_telno;
-	strcpy = (Stf_name, pStf_name);
-	strcpy = (Stf_type, pStf_type);
-	string = (Stf_add, pStf_add);
+	strcpy (Stf_name, pStf_name);
+	strcpy (Stf_type, pStf_type);
+	string str= (Stf_add, pStf_add);
 	
 }
 
@@ -131,7 +131,7 @@ Cards::Cards(int pcvv, int pE_date, int pC_num, char pC_type);
 	cvv = pcvv;
 	E_date = pE_date;
 	C_num = pC_num;
-	strcpy = (C_type, pC_type);
+	strcpy (C_type, pC_type);
 }
 
 void Cards::setcvv(int cvv)
