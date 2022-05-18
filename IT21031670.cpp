@@ -1,3 +1,4 @@
+//IT21031670 A.M.W.Y. Abayakoon
 #include<iostream>
 #include <cstring>
 using namespace std;
@@ -212,7 +213,7 @@ int Cancellation::getpayID(int payID);
 
 int main()
 {
-	Booking C1, C2, C3, C4;
+	Cancellation C1, C2, C3, C4;
 
 	C1.setcancelcode(45614);
 	C1.getcancelcode(45614);
